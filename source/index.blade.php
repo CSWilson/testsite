@@ -6,8 +6,8 @@
     <section class="relative z-10 py-48">
         <div class="mx-auto max-w-7xl px-8">
             <div class="max-w-3xl">
-                <h1 class="font-extralight font-serif text-5xl md:text-7xl text-white mb-4 tracking-tight drop-shadow-[1px_1px_1px_rgba(0,0,0,0.5)]">A better life starts with a beautiful smile.</h1>
-                <p class="text-white text-xl md:text-2xl mb-8 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.5)]">Welcome to the Dentist Office of Dr. Thomas Dooley, where trust and comfort are priorities.</p>
+                <h1 class="font-extralight font-serif text-5xl md:text-7xl text-white mb-4 tracking-tight drop-shadow-[1px_1px_1px_rgba(0,0,0,0.5)]">A better life starts with a beautiful smile</h1>
+                <p class="text-white text-xl md:text-2xl mb-8 drop-shadow-[1px_1px_1px_rgba(0,0,0,0.5)]">Welcome to the Dentist Office of Dr. Thomas Dooley, where trust and comfort are priorities...</p>
                 <x-button-white-border href="{{ $page->bookAppt }}">Book Appointment <x-icon icon="chevron-right" /></x-button-white-border>
             </div>
         </div>
