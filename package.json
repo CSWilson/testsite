@@ -4,7 +4,8 @@
         "dev": "mix",
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
-        "prod": "mix --production"
+        "prod": "mix --production",
+        "deploy": "git subtree push --prefix build_production origin gh-pages"
     },
     "devDependencies": {
         "copy-webpack-plugin": "^11.0.0",
